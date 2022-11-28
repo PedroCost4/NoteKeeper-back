@@ -13,7 +13,7 @@ This is the back end of a note keeper, using the technologies described below:
 - Using docker to run postgres db server.
   
 <br>
-<>
+<hr>
 
 To run the docker use:
 `Docker Compose up -d` in the directory of this project.
