@@ -4,7 +4,7 @@
 
 <br>
 
-This is the back end of a note keeper, using the technologies described below:
+This is the back end of a note keeper app, using the technologies described below:
 
 - Using PostgreSQL as DataBase using Prisma ORM.
 
