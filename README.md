@@ -1,6 +1,6 @@
 # NoteKeeper-back
 
-<h1 align="center">*** My first Back-end project ***</h1>
+<h1 align="center">My first Back-end project</h1>
 
 <br>
 
