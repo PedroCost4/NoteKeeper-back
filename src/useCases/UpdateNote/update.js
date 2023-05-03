@@ -1,5 +1,5 @@
-import prisma from '../prisma.js';
-import {NoteDontExists, NoteWoId} from './testingEntries.js';
+import prisma from '../../prisma.js';
+import {NoteDontExists, NoteWoId} from '../../methods/testingEntries.js';
 
 export const updateNote = async (req, res) => {
     NoteWoId(req,res, next);
