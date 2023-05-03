@@ -8,7 +8,7 @@ datasource db {
 }
 
 model Notes {
-  id        Int      @id @default(autoincrement())
+  id        String      @id @default(cuid())
   titulo    String
   conteudo  String
   createdAt DateTime @default(now())
