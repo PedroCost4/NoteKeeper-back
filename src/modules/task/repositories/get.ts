@@ -1,10 +1,14 @@
 import prisma from "../../../prisma";
 
-
 export const getNotes = async (id: string) => {
     try {
-        const notes = await prisma.notes.findMany();
-        return notes;
+        const note = await prisma.notes.findFirst({
+            where: {
+                id,
+            }
+        }
+        );
+        return note;
     }catch(e){
         console.log(e);
     }
